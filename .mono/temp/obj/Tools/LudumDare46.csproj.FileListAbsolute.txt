@@ -1,0 +1,6 @@
+/Users/thor/Dropbox/Projects/Programming/Godot/LudumDare46/.mono/temp/bin/Tools/LudumDare46.dll
+/Users/thor/Dropbox/Projects/Programming/Godot/LudumDare46/.mono/temp/bin/Tools/LudumDare46.pdb
+/Users/thor/Dropbox/Projects/Programming/Godot/LudumDare46/.mono/temp/obj/Tools/LudumDare46.csprojAssemblyReference.cache
+/Users/thor/Dropbox/Projects/Programming/Godot/LudumDare46/.mono/temp/obj/Tools/LudumDare46.csproj.CoreCompileInputs.cache
+/Users/thor/Dropbox/Projects/Programming/Godot/LudumDare46/.mono/temp/obj/Tools/LudumDare46.dll
+/Users/thor/Dropbox/Projects/Programming/Godot/LudumDare46/.mono/temp/obj/Tools/LudumDare46.pdb
