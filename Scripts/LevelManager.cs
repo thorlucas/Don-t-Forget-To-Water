@@ -2,7 +2,7 @@
 using Godot;
 
 public class LevelManager : Node {
-    private static int level = 10;
+    private static int level = 1;
     private static int levelCount = 10;
     private static PackedScene currentPackedLevel; 
 

@@ -83,7 +83,7 @@ public class World : Node
     }
 
     public void CompletedLevel(int points) {
-        GD.Print("Completed: ", points);
+        //GD.Print("Completed: ", points);
 
         Win winSceneInstance = winScene.Instance() as Win;
         winGUI = winSceneInstance;

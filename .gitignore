@@ -5,3 +5,4 @@
 .import
 *.ps
 mono_crash.*
+bin

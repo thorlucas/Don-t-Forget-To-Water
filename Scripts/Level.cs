@@ -36,8 +36,13 @@ public class Level : Node2D {
     private const int LevelWidth = 16;
     private const int LevelHeight = 16;
 
+    private RandomNumberGenerator rand;
+
     // Called when the node enters the scene tree for the first time.
     public override void _Ready() {
+        rand = new RandomNumberGenerator();
+        rand.Randomize();
+
         tileMap = FindNode("Tiles") as TileMap;
         waterMap = FindNode("Water") as TileMap;
         backgroundMap = FindNode("Background") as TileMap;
@@ -286,8 +291,7 @@ public class Level : Node2D {
 
         if (remainder > 0) {
             if (cell.Direction == FlowMomentumDirection.None) {
-                Random rand = new Random();
-                if (rand.Next() % 2 == 0) {
+                if (rand.Randi() % 2 == 0) {
                     cell.Direction = FlowMomentumDirection.Left;
                 } else {
                     cell.Direction = FlowMomentumDirection.Right;
@@ -470,7 +474,7 @@ public class Level : Node2D {
         if (tiles[x, y].Chiselable) {
             tiles[x, y] = new Air(x, y);
             ChiselsLeft -= 1;
-            GD.Print("Chisels left: ", ChiselsLeft);
+            //GD.Print("Chisels left: ", ChiselsLeft);
             return true;
         }
 
