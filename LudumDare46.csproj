@@ -55,10 +55,26 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scripts\Level.cs" />
+    <Compile Include="Scripts\MainMenu.cs" />
+    <Compile Include="Scripts\UI\MenuButton.cs" />
+    <Compile Include="Scripts\Win.cs" />
     <Compile Include="Scripts\World.cs" />
+    <Compile Include="Scripts\Tiles\Tile.cs" />
+    <Compile Include="Scripts\Tiles\Stone.cs" />
+    <Compile Include="Scripts\Tiles\Air.cs" />
+    <Compile Include="Scripts\Tiles\Dirt.cs" />
+    <Compile Include="Scripts\Tiles\Sapling.cs" />
+    <Compile Include="Scripts\Tiles\IGoal.cs" />
+    <Compile Include="Scripts\Tiles\IHydratable.cs" />
+    <Compile Include="Scripts\WaterCell.cs" />
+    <Compile Include="Scripts\Tiles\TileSetConnections.cs" />
+    <Compile Include="Scripts\LevelManager.cs" />
+    <Compile Include="Scripts\Tiles\CrackedStone.cs" />
+    <Compile Include="Scripts\Tiles\Perlite.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scenes\" />
+    <Folder Include="Scripts\Tiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
