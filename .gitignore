@@ -1,5 +1,7 @@
 */.DS_Store
+.DS_Store
 .vs
 .mono
 .import
 *.ps
+mono_crash.*
